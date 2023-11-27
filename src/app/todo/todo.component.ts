@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./todo.component.scss']
 })
 export class TodoComponent {
-  title = 'Todo Application Using Local Storage';
   list: any = [];
   task:any="";
 
